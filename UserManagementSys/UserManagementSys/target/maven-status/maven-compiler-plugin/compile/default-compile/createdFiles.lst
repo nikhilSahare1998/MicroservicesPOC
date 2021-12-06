@@ -1,0 +1,7 @@
+com\microservicesPOC\UserManagementSys\Repository\UserRepository.class
+com\microservicesPOC\UserManagementSys\UserManagementSysApplication.class
+FeignClient\DepartmentServiceClient.class
+com\microservicesPOC\UserManagementSys\Service\UserService.class
+com\microservicesPOC\UserManagementSys\Entity\User.class
+FeignClient\Department.class
+com\microservicesPOC\UserManagementSys\Controller\UserController.class

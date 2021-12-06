@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.microservicesPOC.UserManagementSys.Controller.UserControllerTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 1.12 s <<< FAILURE! - in com.microservicesPOC.UserManagementSys.Controller.UserControllerTest
+saveUser  Time elapsed: 1.081 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.microservicesPOC.UserManagementSys.Service.UserService.saveUser(com.microservicesPOC.UserManagementSys.Entity.User)" because "this.userService" is null
+	at com.microservicesPOC.UserManagementSys.Controller.UserControllerTest.saveUser(UserControllerTest.java:49)
+
+delete  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.microservicesPOC.UserManagementSys.Service.UserService.delete(java.lang.Long)" because "this.userService" is null
+	at com.microservicesPOC.UserManagementSys.Controller.UserControllerTest.delete(UserControllerTest.java:68)
+
+getAllUser  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.microservicesPOC.UserManagementSys.Controller.UserControllerTest.getAllUser(UserControllerTest.java:61)
+
